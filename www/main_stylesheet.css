@@ -1,0 +1,160 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 50px;
+}
+
+pre,
+tt,
+code,
+.code,
+#detail {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #0097db;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0 0 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #111;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0 0 4px;
+  padding: 0 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+a {
+  color: #0097db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00608c;
+  text-decoration: underline;
+}
+
+#wrapper {
+  width: 50%;
+  /* specify a width! */
+  margin: 0 auto;
+  /* center */
+}
+
+/* #vis {
+          width: 50%;
+          margin: 0 auto;
+        } */
+
+hr.style9 {
+  border-top: 1px dashed #8c8b8b;
+  border-bottom: 1px dashed #fff;
+}
+
+#date {
+  color: #111;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  font-weight: 700;
+}
+
+p {
+  color: #111;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 0 8px;
+}
+
+/* headlines with lines */
+.decorated {
+  overflow: hidden;
+  text-align: center;
+}
+
+.decorated > span {
+  position: relative;
+  display: inline-block;
+}
+
+.decorated > span:before,
+.decorated > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border-bottom: 2px solid;
+  width: 591px;
+  /* half of limiter*/
+  margin: 0 20px;
+}
+
+.decorated > span:before {
+  right: 100%;
+}
+
+.decorated > span:after {
+  left: 100%;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  width: 95%;
+}
+.badge {
+  padding: 1px 9px 3px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+/* .badge:hover {
+          color: #ffffff;
+          text-decoration: none;
+          cursor: arrow;
+        } */
+.badge-confirmed {
+  background-color: #b94a48;
+}
+.badge-total {
+  background-color: #953b39;
+}
+.badge-probable {
+  background-color: #f89406;
+}
+.badge-recovered {
+  background-color: #00b436;
+}
+.badge-hospital {
+  background-color: #ecc900;
+}
+.badge-deaths {
+  background-color: #000000;
+}
